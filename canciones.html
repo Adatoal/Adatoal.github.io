@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Canciones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<style>
+	:root{
+  --gradient:  linear-gradient(to right, 
+    #e80033,
+    #f9a852,
+    #f69653,
+    #f38654,
+    #f07654,
+    #ed6856,
+    #ef5956,
+    #ee4c58,
+    #56c1ab
+  );
+}
+*{
+  box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #fff;
+	
+}
+		
+body{
+  font-family: 'Comic Neue', cursive;
+  color: #222;
+  background: beige;
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: fondo-anim 20s infinite alternate;
+}
+@keyframes fondo-anim{
+  0%{background-position: left;} /*por defecto*/
+  100%{background-position: right;}
+}
+.box{
+  background: white;
+  width: 90vw;
+  padding: 3em;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+  text-align:center;
+  margin: 6rem 2rem;
+}
+h1{
+  font-size: 6rem;
+  color: #fff;
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.2;
+  /*background-image: var(--gradient);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: fondo-anim 5s infinite alternate;*/ 
+}
+.anim{
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 0;
+  padding: 30px 70px;
+  background-image: linear-gradient(to right, 
+    #e80033,
+    #f9a852,
+    #f69653,
+    #f38654,
+    #f07654,
+    #ed6856,
+    #ef5956,
+    #ee4c58,
+    #56c1ab
+  );
+  background-size: 700%;
+  transition: background-position 1s;
+}
+
+.anim:hover{
+   background-position: 50%;
+}
+		
+.contenedor img{
+	padding: 3%;
+}
+		
+.contenedor:hover img {-webkit-transform:scale(1.1);transform:scale(1.1);}
+		
+@media only screen and (max-width: 767px) {
+	.contenedor:hover img {-webkit-transform:scale(1.0);transform:scale(1.0);}
+	.col-sm {margin-bottom: 7%}
+}
+		#btnhome
+		{
+			position:fixed;
+			top: 10px;
+			left: 10px;
+		}
+	</style>
+</head>
+<body>
+
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>EDUChildren</title>
+    <link rel="stylesheet" href="revslider/css/settings.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/select2.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/shop.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="tuner/style.css" type="text/css" media="all" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="revslider/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revslider/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revslider/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revslider/js/extensions/revolution.extension.parallax.min.js"></script>
+        <div class='slider_vs_menu'>
+            <div class='header_cont'>
+                <div class='header_mask'>
+                    <div class='header_pattern'></div>
+                </div>
+                <header class='site_header logo-in-menu' data-menu-after="3">
+                    <div class="header_box">
+                        <div class="container">
+                            <div class="header_logo_part with_border" role="banner">
+                                <a class="logo" href="index.html"><img src='img/logo1-304vqrnv7ccxz47xp4tw5m.png' data-at2x='img/logo1-304vqrnv7ccxz47xp4tw5m.png' alt /></a>
+                            </div>
+                            <div class="header_nav_part">
+                                <nav class="main-nav-container a-right">
+                                    <div class="mobile_menu_header">
+                                        <i class="mobile_menu_switcher"><span></span><span></span><span></span></i>
+                                    </div>
+                                    <ul id="menu-main-menu" class="main-menu menu-bees">
+                                        <li class="menu-item menu-item-has-children bees-start">
+                                            <a href="juegos-matematicas.html">
+                                                <div class="bees bees-start"><span></span>
+                                                    <div class="line-one"></div>
+                                                    <div class="line-two"></div>
+                                                </div>Juegos
+												<div class="canvas_wrapper">
+                                                    <canvas class="menu_dashed"></canvas>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a href="cuentos.html">Cuentos<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a href="fabulas.html">F&aacute;bulas<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children right"><a href="canciones.html">Canciones<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children right"><a href="enseñanzachildren.html">Enseñanza<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                            </li>
+											
+                                        <li class="menu-item right bees-end">
+                                            <a href="lecturas.html">
+                                                <div class="bees bees-end"><span></span>
+                                                    <div class="line-one"></div>
+                                                    <div class="line-two"></div>
+                                                </div>Lecturas
+                                                <div class="canvas_wrapper">
+                                                    <canvas class="menu_dashed"></canvas>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tp-static-layers">
+                    </div>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+        </div>
+        <div class='benefits_area wave' id="acerca">
+		
+		
+            <!--<div class='cloud_wrapper'>
+                <canvas class='cloud' data-bg-color='#f9e8b2' data-line-color='#ffffff' data-pattern-src='img/dots-pattern.png'></canvas>
+            </div>-->
+			
+                        <div class='cws_textwidget_content'>
+                            
+                        </div>
+                    </div>
+					
+                <div class='left-pattern pattern pattern-2'></div>
+                <main>
+                    <div class='grid_row clearfix' style='padding-top: 30px;'> 
+                </main>
+                <!--<div class='right-pattern pattern pattern-2'></div>-->
+    <div class='scroll_top animated'></div>
+    <script type='text/javascript' src='tuner/tuner/js/colorpicker.js'></script>
+    <script type='text/javascript' src='tuner/tuner/js/scripts.js'></script>
+    <script type='text/javascript' src='js/retina_1.3.0.js'></script>
+    <script type='text/javascript' src='js/modernizr.js'></script>
+    <script type='text/javascript' src='js/owl.carousel.js'></script>
+    <script type='text/javascript' src='js/TweenMax.min.js'></script>
+    <script type='text/javascript' src='js/jquery.isotope.min.js'></script>
+    <script type='text/javascript' src='js/jquery.fancybox.js'></script>
+    <script type='text/javascript' src='js/select2.min.js'></script>
+    <script type='text/javascript' src='js/wow.min.js'></script>
+    <script type='text/javascript' src='js/jquery.validate.min.js'></script>
+    <script type='text/javascript' src="js/jquery.form.min.js"></script>
+    <script type='text/javascript' src='js/scripts.js'></script>
+    <script type='text/javascript' src="js/jquery.tweet.js"></script>
+
+
+	<br><br><h1 align="center" style="color: :#fff">Canciones</h1>
+	<div class="container">
+  <div class="row">
+    <div class="col-sm-6 contenedor">
+     <a href="ronda-vocales.html"><img src="images/canciones/ronda de vocales.jpg" width="100%"><p><FONT COLOR="white">Ronda de Vocales</FONT></p></a>
+    </div>
+    <div class="col-sm-6 contenedor">
+      <a href="mickey.html"><img src="images/canciones/mickey.jpg" width="100%"><p><FONT COLOR="white">La Casa de Mickey Mouse</FONT></p></a>
+    </div>
+	<div class="col-sm-6 contenedor">
+      <a href="la-vacalola.html"><img src="images/canciones/la vaca lola.jpg" width="100%"><p><FONT COLOR="white">La Vaca Lola</FONT></p></a>
+	</div>
+	<div class="col-sm-6 contenedor">
+      <a href="tiempo-desol.html"><img src="images/canciones/tiempo de sol.jpg" width="100%"><p><FONT COLOR="white">Tiempo de Sol Bartolito</FONT></p></a>
+	</div>
+	
+	<div class="col-sm-6 contenedor">
+     <a href="gran-recreo.html"><img src="images/lecturas/recreo.jpg" width="100%"><p><FONT COLOR="white">Un Gran Recreo</FONT></p></a>
+    </div>
+	<div class="col-sm-6 contenedor">
+      <a href="juego-recrear.html"><img src="images/lecturas/juegos.jpg" width="100%"><p><FONT COLOR="white">Juegos para Recrear</FONT></p></a>
+    </div>
+	<div class="col-sm-6 contenedor">
+      <a href="aplaudir.html"><img src="images/lecturas/aplaudir.jpg" width="100%"><p><FONT COLOR="white">Si Tú Tienes Muchas Ganas de Aplaudir</FONT></p></a>
+	</div>
+	<div class="col-sm-6 contenedor">
+      <a href="fiesta.html"><img src="images/lecturas/fiesta.jpg" width="100%"><p><FONT COLOR="white">La Fiesta Va Empezar</FONT></p></a>
+	</div>
+	
+	
+	 </div><br><br>
+</div>
+	
+	<!--<a id="btnhome" href="index.html"><img src="https://img.icons8.com/bubbles/200/fa314a/home.png" width="90px"/></a>-->
+</body>
+</html>
